@@ -23,7 +23,7 @@ CMDSTAN_VERSION = "2.32.0"
 BINARIES_DIR = "bin"
 BINARIES = ["diagnose", "print", "stanc", "stansummary"]
 TBB_PARENT = "stan/lib/stan_math/lib"
-TBB_DIRS = ["tbb", "tbb_2019_U8"]
+TBB_DIRS = ["tbb", "tbb_2020.3"]
 
 
 def prune_cmdstan(cmdstan_dir: str) -> None:
